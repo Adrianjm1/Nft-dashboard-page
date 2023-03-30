@@ -1,0 +1,88 @@
+.sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.sidebar img {
+  display: block;
+  margin: 0 auto;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #333;
+
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.sidebar a i {
+  margin-right: 10px;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: auto;
+}
+
+.sidebar-menu-bottom {
+  list-style-type: none;
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-name {
+  margin-top: 0.7rem;
+  margin-bottom: 0.35rem;
+  font-weight: bold;
+}
+
+.profile-image {
+  position: relative;
+}
+
+.profile-status {
+  position: absolute;
+  bottom: -0.5rem;
+  left: calc(50% + 0.8rem);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: rgb(0, 202, 0);
+}
+
+.profile-subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  color: rgb(51, 51, 51);
+}

@@ -1,0 +1,53 @@
+.info {
+  color: #fff;
+  font-size: 12.5px;
+  margin-top: 30px;
+}
+
+.title {
+  color: #fff;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 27%;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.actives-container {
+  padding: 50px 40px;
+}
+
+.actives-list {
+  margin-left: 40px;
+}
+
+.active {
+  position: relative;
+  height: 140px;
+  width: 140px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.active-icon {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 0;
+  left: 25px;
+  transform: translateY(-50%);
+  border-radius: 12px;
+}
+
+.active-info > p {
+  padding: 0px 25px;
+  margin: 0;
+  font-size: 16px;
+}
