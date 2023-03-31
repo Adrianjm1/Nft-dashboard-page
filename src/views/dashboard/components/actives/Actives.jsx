@@ -1,7 +1,7 @@
 import React from "react";
 import "./actives.css";
-import icono from "../../../../../public/img/icono.png";
-import nft from "../../../../../public/img/nft.png";
+import icono from "/img/icono.png";
+import nft from "/img/nft.png";
 
 const Actives = () => {
   const arrayList = ["PC5 ", "PC5", "NFTs", "NFTs", "NFTs"];

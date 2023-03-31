@@ -1,7 +1,7 @@
 import React from "react";
 import "./sidebar.css";
-import logo from "../../../public/img/logo.jpeg";
-import jonathan from "../../../public/img/jonathan.jpeg";
+import logo from "/img/logo.jpeg";
+import jonathan from "/img/jonathan.jpeg";
 import { ItemsSidebar } from "./items-sidebar/ItemsSidebar";
 
 export const Sidebar = () => {
