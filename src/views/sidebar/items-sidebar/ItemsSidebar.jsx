@@ -1,5 +1,5 @@
 import React from "react";
-import "./ItemsSidebar.css";
+import "./itemsSidebar.css";
 
 export const ItemsSidebar = () => {
   const itemList = [
