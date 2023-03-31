@@ -16,10 +16,10 @@ const Actives = () => {
         </p>
       </div>
       <div className="flex-grow-1 actives-list d-flex justify-content-evenly align-items-center">
-        {arrayList.map((index, data) => (
+        {arrayList.map((data, index) => (
           <div className="active rounded-box ">
             <div className="active-icon bg-blue  d-flex align-items-center  justify-content-center">
-              {index !== "PC5" ? (
+              {index == 1 ? (
                 <img src={nft} alt="" />
               ) : (
                 <img src={icono} alt="" />
