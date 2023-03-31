@@ -1,3 +1,18 @@
+@import url(//db.onlinewebfonts.com/c/baa223ce70692d6c7c620ede6f841f29?family=Hurme+Geometric+Sans+No.3);
+@font-face {
+  font-family: "Hurme Geometric Sans No.3";
+  src: url("//db.onlinewebfonts.com/t/baa223ce70692d6c7c620ede6f841f29.eot");
+  src: url("//db.onlinewebfonts.com/t/baa223ce70692d6c7c620ede6f841f29.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/baa223ce70692d6c7c620ede6f841f29.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/baa223ce70692d6c7c620ede6f841f29.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/baa223ce70692d6c7c620ede6f841f29.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/baa223ce70692d6c7c620ede6f841f29.svg#Hurme Geometric Sans No.3")
+      format("svg");
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,6 +35,8 @@ html,
   height: 100%;
   margin: 0;
   width: 100%;
+  /* font-family: "Hurme Geometric Sans No.3", sans-serif;
+  font-weight: bold; */
 }
 
 .rounded-box {
@@ -34,6 +51,10 @@ html,
   background: linear-gradient(to left, #0086ff 0% 60%, #0186ff);
   /* background-color: #0086ff; */
   /* background-color: #0186ff; */
+}
+
+.bg-dark-blue {
+  background-color: #0b183a;
 }
 
 .semi-bold {

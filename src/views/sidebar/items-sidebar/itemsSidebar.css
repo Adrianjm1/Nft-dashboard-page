@@ -1,0 +1,15 @@
+a {
+  color: #333;
+
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a i {
+  margin-right: 10px;
+}

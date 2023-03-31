@@ -1,0 +1,55 @@
+.icon-image {
+  background-image: url("../../../public/img/Recurso\ 7.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.nft-square {
+  padding: 30px 40px;
+}
+
+.title-nft {
+  color: #fff;
+  position: relative;
+}
+
+.info-nft {
+  color: #0d2146;
+}
+
+.title-nft::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 8%;
+  height: 3px;
+  background-color: #0b183a;
+}
+
+.btn-nft {
+  background-color: #01a4fb;
+  font-weight: bold;
+  color: #00356d;
+  border: none;
+  font-size: 12px;
+  padding: 1px 12px;
+  margin-left: 6px;
+}
+
+.link-nft {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.item-collection {
+}
+
+.item-collection-button {
+  border-radius: 30px;
+
+  padding: 6px 4px;
+}

@@ -7,7 +7,7 @@ import { Dashboard } from "./views/dashboard/Dashboard";
 
 function App() {
   return (
-    <div className=" d-flex h-100 w-100">
+    <div className=" d-flex  w-100">
       <Sidebar />
       <Dashboard />
     </div>
